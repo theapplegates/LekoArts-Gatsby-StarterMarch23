@@ -4,7 +4,7 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitleAlt: `Living life & writing some things down along the way`,
   },
   plugins: [
     {
@@ -19,15 +19,19 @@ module.exports = {
             title: `About`,
             slug: `/about`,
           },
+         {
+           title: `Contact`,
+           slug: `/contact`,
+         },
         ],
         externalLinks: [
           {
             name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            url: `https://twitter.com/papplegate`,
           },
           {
             name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            url: `https://www.instagram.com/mrapplegate/`,
           },
         ],
       },
@@ -65,6 +69,6 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
-    // `gatsby-plugin-webpack-bundle-analyser-v2`,
+    //  `gatsby-plugin-webpack-bundle-analyser-v2`,
   ],
 }
